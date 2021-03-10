@@ -1,0 +1,46 @@
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+ul {
+  width: 350px;
+  position: absolute;
+  left: 50%;
+  margin-top: 80px;
+  margin-left: -150px;
+}
+
+li {
+  position: relative;
+  display: block;
+  border: 1px solid hotpink;
+  margin-bottom: 5px;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
